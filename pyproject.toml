@@ -1,0 +1,22 @@
+[project]
+name = "redcap"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "bottleneck>=1.4.2",
+    "ipykernel>=6.29.5",
+    "jinja2>=3.1.6",
+    "keyring>=25.6.0",
+    "matplotlib>=3.10.3",
+    "numba>=0.61.2",
+    "numexpr>=2.10.2",
+    "omero-py>=5.21.2",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "pycap>=2.7.0",
+    "qtpy>=2.4.3",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.15.3",
+    "tqdm>=4.67.1",
+    "zeroc-ice @ https://github.com/glencoesoftware/zeroc-ice-py-macos-universal2/releases/download/20240131/zeroc_ice-3.6.5-cp312-cp312-macosx_11_0_universal2.whl",
+]
